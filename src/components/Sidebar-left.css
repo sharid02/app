@@ -1,0 +1,40 @@
+.sidebar{
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+}
+.sidebar-static{
+    display: flex;
+    flex-direction:row;
+}
+
+.sidebar-stat{
+    margin: 10px;   
+}
+
+.sidebar-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 0;
+    border: 1px solid lightgray;
+    background-color:white ;
+    border: 0px;
+    border-radius: 10px;
+}
+.sidebar-top>img{
+    margin-bottom: -20px;
+    width: 100%;
+    height: 60px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.sidebar-bottom{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+}

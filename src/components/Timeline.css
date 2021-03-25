@@ -1,0 +1,45 @@
+.timeline{
+    flex:0.6;
+    margin: 0 20px;
+}
+
+.timeline-input-content{
+    padding: 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.timeline-input{
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    color: gray;
+    padding-left: 15px;
+
+}
+
+.timeline-input> form {
+    display: flex;
+    width: 100%;
+}
+.timeline-input > form> input{
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+    background: none;
+
+}
+
+.timeline-input-op{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+    justify-content:flex-end;
+}
+
+.timeline-input-op>Timelineicon{
+    padding-right: 20px;
+}

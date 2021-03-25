@@ -1,0 +1,23 @@
+.right-sidebar{
+    flex:0.2;
+    margin: 0 20px;
+    align-items: center;
+    
+}
+.trend>h2{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.trend{
+    min-height: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+.trend>img{
+    max-width: 100%;
+    padding-bottom: 10px;
+}
+.trend>p{
+    margin: 10px;
+}

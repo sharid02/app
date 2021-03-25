@@ -1,0 +1,10 @@
+.sidebar-bt{
+    display: flex;
+    padding: 20px;
+    position: relative;
+}
+
+.sidebar-bt>h4{
+    margin-left: 10px;
+    padding-top: 7px;
+}
